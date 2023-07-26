@@ -9,7 +9,7 @@ Polling System Backend, an API where anyone can create questions with options an
 - clone the repository
 
 ```
-git clone <url>
+git clone https://github.com/niteshgupta20/polling-system-backend.git
 ```
 
 - Install dependencies
@@ -27,7 +27,7 @@ npm  start
 - open the application
 
 ```
-Run localhost:5000 on chrome browser.
+Run localhost:5000/api/v1/<route> on postman.
 ```
 
 ## Project Structure
@@ -44,3 +44,23 @@ The folder structure of this app is explained below:
 | **middlewares**        | checking document ID is valid or not                                                 |
 | server.js              | Entry point to express api                                                           |
 | package.json           | Contains npm dependencies as well as build scripts                                   |
+
+## Screenshots
+
+### Create Question
+![Create Question](https://github.com/niteshgupta20/polling-system-backend/blob/master/screenshots/create-question.PNG?raw=true)
+
+### Create Option
+![Create Option](https://github.com/niteshgupta20/polling-system-backend/blob/master/screenshots/add-option.PNG?raw=true)
+
+### Add vote
+![Add Vote](https://github.com/niteshgupta20/polling-system-backend/blob/master/screenshots/add-vote.PNG?raw=true)
+
+###  Delete Question
+![Delete Question](https://github.com/niteshgupta20/polling-system-backend/blob/master/screenshots/delete-question.PNG?raw=true)
+
+###  Delete Option
+![Delete Option](https://github.com/niteshgupta20/polling-system-backend/blob/master/screenshots/delete-option.PNG?raw=true)
+
+###  View Question
+![View Question](https://github.com/niteshgupta20/polling-system-backend/blob/master/screenshots/view-question.PNG?raw=true)
