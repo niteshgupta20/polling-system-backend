@@ -99,7 +99,7 @@ module.exports.deleteOption = async function (req, res) {
       });
     } else {
       return res.status(400).json({
-        message: "option can't be beacuse it's already voted",
+        message: "option can't be deleted beacuse it's already voted",
         option: option,
       });
     }
