@@ -1,4 +1,4 @@
-const Option = require('../models/option');
+const Option = require('../models/Option');
 const Question = require('../models/Question');
 require('dotenv').config();
 
