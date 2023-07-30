@@ -1,5 +1,6 @@
 const Option = require('../models/option');
 const Question = require('../models/Question');
+require('dotenv').config();
 
 // @desc create option to a specific question
 // @route POST /api/v1/questions/:id/options/create
@@ -25,7 +26,7 @@ module.exports.createOption = async function (req, res) {
     }
 
     const option = await Option.create({ text });
-    option.link_to_vote = `http://localhost:5000/${option.id}/add_vote`;
+    option.link_to_vote = `${process.env.VOTE_URL}/${option.id}/add_vote`;
     option.save();
 
     question.options.push(option._id);
