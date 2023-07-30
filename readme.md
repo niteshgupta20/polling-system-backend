@@ -12,6 +12,12 @@ Polling System Backend, an API where anyone can create questions with options an
 git clone https://github.com/niteshgupta20/polling-system-backend.git
 ```
 
+- create .env file
+```
+DB_URI="mongodb://127.0.0.1:27017/polling-system"
+VOTE_URL="http://localhost:5000"
+```
+
 - Install dependencies
 
 ```
